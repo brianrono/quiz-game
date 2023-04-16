@@ -78,6 +78,24 @@ nextButton.addEventListener('click', () => {
 
     const questions = [
         {
+            question: "What is the largest planet in our solar system?",
+            answers: [
+                {text: 'Earth', correct: false},
+                {text: 'Jupiter', correct: true},
+                {text: 'Mars', correct: false},
+                {text: 'Saturn', correct: false},
+            ]
+        },
+        {
+            question: "What is the chemical symbol for gold?",
+            answers: [
+                {text: 'Au', correct: true},
+                {text: 'Ag', correct: false},
+                {text: 'Cu', correct: false},
+                {text: 'Fe', correct: false},
+            ]
+        },
+        {
             question: 'What is 2 + 2?',
             answers: [
                 { text: '4', correct: true },
@@ -117,24 +135,6 @@ nextButton.addEventListener('click', () => {
                 {text: 'Rome', correct: false },
                 {text: 'Madrid', correct: false },
             ]            
-        },
-        {
-            question: "What is the largest planet in our solar system?",
-            answers: [
-                {text: 'Earth', correct: false},
-                {text: 'Jupiter', correct: true},
-                {text: 'Mars', correct: false},
-                {text: 'Saturn', correct: false},
-            ]
-        },
-        {
-            question: "What is the chemical symbol for gold?",
-            answers: [
-                {text: 'Au', correct: true},
-                {text: 'Ag', correct: false},
-                {text: 'Cu', correct: false},
-                {text: 'Fe', correct: false},
-            ]
         },
         {
             question: "What is the highest mountain in the world?",
